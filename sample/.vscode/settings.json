@@ -1,10 +1,10 @@
 {
   "files.exclude": {
-    "node_modules": false,
+    "node_modules": true,
     "src/js": true,
     "logs": true,
     "docs": true,
-    "dist": false,
+    "dist": true,
     "dist/.well-known": true,
     "dist/img": false,
     "dist/css": true,

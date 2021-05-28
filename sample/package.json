@@ -22,6 +22,7 @@
     "date-fns": "^2.21.3",
     "electron": "^12.0.5",
     "electron-debug": "^3.2.0",
+    "electron-ipc-bridge-factory": "^0.0.0-beta.2",
     "electron-is": "^3.0.0",
     "electron-log": "^4.3.5",
     "electron-window": "^0.8.1",
