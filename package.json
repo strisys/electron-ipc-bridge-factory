@@ -1,0 +1,28 @@
+{
+  "name": "electron-ipc-bridge",
+  "version": "0.0.0-beta.1",
+  "description": "A easier way to use Electron's contextBridge API",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "package-info": "npm info",
+    "package-repo": "npm repo",
+    "package-list": "npm list --depth=1",
+    "tsc-version": "tsc --version",
+    "tsc": "tsc",
+    "transpile-clean": "rimraf ./src/js",
+    "transpile": "npm-run-all transpile-clean tsc-version tsc",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "electron": "^13.0.1",
+    "eslint": "^7.27.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  }
+}

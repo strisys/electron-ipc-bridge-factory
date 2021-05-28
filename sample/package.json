@@ -1,0 +1,37 @@
+{
+  "name": "bridge-sample",
+  "productName": "Bridge Sample",
+  "version": "1.0.1",
+  "description": "Sample to show usage of the bridge factory",
+  "main": "dist/js/desktop/entry-point.js",
+  "scripts": {
+    "clean-dist-js": "rimraf ./dist/js",
+    "clean-dist": "npm-run-all clean-dist-js",
+    "tsc": "tsc",
+    "transpile": "npm-run-all clean-dist tsc",
+    "build": "npm-run-all transpile copy-markup",
+    "copy-markup": "copyfiles -u 2 ./src/ts/desktop/**/*.html ./src/ts/desktop/**/*.css ./src/ts/web/**/*.html ./src/ts/web/**/*.css dist/js",
+    "bundle": "webpack-cli --mode=development",
+    "start-electron": "electron .",
+    "start": "npm-run-all build start-electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "date-fns": "^2.21.3",
+    "electron": "^12.0.5",
+    "electron-debug": "^3.2.0",
+    "electron-is": "^3.0.0",
+    "electron-log": "^4.3.5",
+    "electron-window": "^0.8.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "tslib": "^2.2.0"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  }
+}
