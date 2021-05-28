@@ -1,4 +1,4 @@
-# Electron IPC Bridge
+# Electron IPC Bridge Factory
 
 > A easier way to use [Electron's contextBridge API](https://www.electronjs.org/docs/api/context-bridge)
 
