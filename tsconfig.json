@@ -6,7 +6,7 @@
     "module": "commonjs",
     "sourceMap": true,
     "declaration": true,
-    "outDir": "./src/js",
+    "outDir": "./dist/js",
     "watch": false,
     "traceResolution": false,
     "importHelpers": true,
@@ -32,7 +32,7 @@
     "webpack",
   ],
   "files": [
-    "./src/ts/bridge-factory.ts"
+    "./src/ts/index.ts"
   ],
   "compileOnSave": true
 }
