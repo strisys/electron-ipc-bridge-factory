@@ -1,6 +1,6 @@
 {
   "name": "electron-ipc-bridge-factory",
-  "version": "0.0.0-beta.2",
+  "version": "0.0.0-beta.3",
   "description": "A easier way to use Electron's contextBridge API",
   "main": "dist/js/index.js",
   "repository": {
