@@ -11,7 +11,8 @@
   "homepage": "https://github.com/strisys/electron-ipc-bridge-factory#readme",
   "keywords": [
     "electron",
-    "bridge"
+    "bridge",
+    "contextBridge"
   ],
   "scripts": {
     "package-info": "npm info",
